@@ -1,0 +1,551 @@
+body {
+    background-color: #e6e6e6;
+}
+a {
+    text-decoration: none !important;
+}
+
+.sticky.is-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Home */
+    /* --------Jumbotron-------- */
+    .home h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        z-index: 1;
+        position: relative;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px rgba(204, 204, 255, 0.5);
+    }
+    .bold {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .pberita {
+        font-size: 16px;
+    }
+    .ptentang {
+        font-size: 17px;
+    }
+    .berita {
+        background: #ffffff ;
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        height: auto;
+        padding: 20px;
+        margin: 10px;
+    }
+    .subberita {
+        background: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        margin: 10px;
+    }
+    .subberita img {
+        margin-right: 10px;
+        width: 120px;
+    }
+    .home{
+        padding: 30px;
+        background-image: url();
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .home::after {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin-left:-30px ;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.1));
+        position: absolute;
+        bottom: 0;
+    }
+    .display-4 {
+        /* font-family: 'Varela Round', sans-serif; */
+        font-family: 'Cinzel', serif;
+    }
+    .side nav {
+        padding-top: 10px;
+    }
+
+    /* --------Navbar-------- */
+    .navbar {
+        background-color: #a9d0f1 !important;
+        margin-top: -33px;
+    }
+    .navbar .nav-link:hover {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.5);
+    }
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+    .navbar a {
+        font-family: 'Varela Round', sans-serif;
+    }
+    .tombol {
+        text-decoration: none !important;
+        color: black !important;
+    }
+    .tombol:hover {
+        color: black !important;
+        
+    }
+
+    /* --------isi-------- */
+    .tentang {
+        font-size: 20px;
+    }
+    .f {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 30px;
+        text-shadow: 0 1px 1px rgba(0,0,7, 0.4);
+    }
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 17px;
+    }
+    .main {
+        border: 1px solid #e6e6e6;
+        background-color: #ffffff;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .sidebar {
+        border: 1px solid #e6e6e6;
+        background-color: #ffffff;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .gambar {
+        margin-top: 40px;
+    }
+/*------- Home ------- */
+
+/*-------Lowongan---------*/
+
+    .main2 {
+        border: 1px solid #e6e6e6;
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin-top: 20px;
+        height: 15em;
+    }
+    .main3{
+        background: linear-gradient(110deg, #F5F7FA 50%, #E6E9ED 50%,#E6E9ED 50% );
+        margin: -30px;
+        padding: 20px;
+    }
+    .OwO {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    .pojok{
+        padding-right: 10px;
+        border: solid 2px;
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-color: grey;
+    }
+    .pojok0{
+        padding-left: 10px;
+        padding-right: 10px;
+        border: solid 2px;
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-color: grey;
+    }
+    .pojok1 {
+        padding-left: 10px;
+    }
+    .bottom_slide{
+        display:  flex;
+        justify-content: center;
+    }
+    hr {
+        border: solid 0.5px;
+        color: grey;
+    }
+    /*-------Bottom_Slide------*/
+
+    .slide1{
+        padding: 1px;
+        margin-right: 15px;
+        font-size: 24px;
+    }
+    .slide2{
+        padding: 1px;
+        margin-right: 15px;
+        font-size: 24px;
+    }
+    .slide3{
+        padding: 1px;
+        font-size: 24px;
+    }
+    /*-------Hover_Slide------*/
+    .slide1:hover{
+        text-decoration: none;
+        color: salmon;
+    }
+    .active:visited{
+       text-decoration: none;
+       display: inline-block;
+       color: #f62109;
+
+    }
+    .slide2:hover{
+        text-decoration: none;
+        color: salmon;
+    }
+    .slide3:hover{
+        text-decoration: none;
+        color: salmon;
+    }
+    /*-------bottom_Slide------*/
+/*-------Lowongan---------*/
+
+/*-------Daftar Mitra------*/
+.UwU {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.sampul1 {
+    display: flex;
+    flex-direction: row;
+}
+.Judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.isi {
+    font-family: 'Josefin Slab', serif;
+}
+.heead {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+/*-------Daftar Mitra------*/
+
+
+/* --------Footer-------- */
+    .py-5 {
+        margin-top: 20px;
+    }
+
+/* Login */
+    .card {
+        background: #ffffff ;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+        height: 340px;
+        margin: 6rem auto 8.1rem auto;
+        width: 350px;
+    }
+    .formm {
+        padding: 20px;
+    }
+    .btn1 {
+        padding-top: 20px;
+    }
+    .login {
+        padding-top: 20px;
+    }
+/* /Login */
+
+/* Berita */
+    .berita  {
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    }
+    .berita h3 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .berita img {
+        width: 120px;
+        margin-right: 20px;
+        box-shadow: 2px 4px 7px rgba(0,0,7, 0.4);
+    }
+    .imgmid img {
+        width: 370px;
+        box-shadow: 2px 4px 7px rgba(0,0,7, 0.4);
+    }
+    .beritabold {
+        font-weight: 600px;
+        font-size: 30px;
+    }
+    .imgmid p{
+        font-size: 16px;
+        padding-top: 30px;
+    }
+    .nama {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .jam {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .next {
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+    }
+/* /Berita */
+
+/* Dashboard Admin */
+    /* Jumbotron */
+    .admin {
+        margin-top: 20px;
+        border-radius: 7px;
+    }
+    .color {
+        background-color: #ffffff;
+    }
+    .admin h1 {
+        color: white;
+        font-size: 35px;
+    }
+    .admin p {
+        color: white;
+        font-size: 20px;
+    }
+    .padd {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        width: 93%;
+    }
+    /* Menu Admin */
+    .menu {
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        margin-bottom: 20px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 5px;
+    }
+    .menu p {
+        text-decoration: none;
+        color: black;
+    }
+    .menu a i:hover::before {
+        color: 	#1ab6cf;
+        text-decoration: none;
+    }
+
+/* About */
+    .bout {
+        padding-top: 10px;
+    }
+    .bout2 {
+        box-sizing: border-box;
+        padding: 30px;
+        width: 93%;
+    }
+    .b {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 30px;
+        text-shadow: 0 1px 1px rgba(0,0,7, 0.4);
+        text-align: center;
+    }
+    .garis {
+        width: auto;
+        border-bottom: 3px solid #1a1a1a;
+        width: 65%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .nama1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 22px;
+    }
+    .profil {
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .profil img {
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 150px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+    .profil p {
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .profil a i {
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+    .profil a i:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #999999;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+/* /About */
+
+/* --------Desktop.Version-------- */
+@media (min-width: 992px) {
+    .home {
+        background-position: 0px -180px;
+    }
+    .berita img {
+        width: 180px;
+    }
+    .bout2 {
+        box-sizing: border-box;
+        padding: 30px;
+        width: 82.3%;
+    }
+    .garis {
+        width: 25%;
+        margin-bottom: 50px;
+    }
+    .padd {
+        width: 82.5%;
+    }
+    .f {
+        font-size: 38px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .bold {
+        font-size: 24px;
+    }
+    .home h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .berita h3 {
+        font-size: 24px;
+        padding-top: 50px;
+    }
+    .berita p {
+        font-size: 18px;
+    }
+    .tentang {
+        font-size: 30px;
+    }
+    .main {
+        width: 80%;
+        padding-top: 20px;
+        box-sizing: border-box;
+        padding: 30px;
+        float: left;
+        border: 1px solid #e6e6e6;
+        margin-top: 8px;
+    }
+    .sidebar {
+        width: 20%;
+        float: right;
+        padding: 20px;
+        margin-top: 8px;
+        margin-right: -20px;
+        border: 1px solid #e6e6e6;
+    }
+    .imgmid img {
+        width: 500px;
+    }
+    .imgmid p{
+        font-size: 16px;
+    }
+    .beritabold {
+        font-size: 30px;
+    }
+    .side nav {
+        margin-right: -20px;
+        padding-top: 10px;
+    }
+    .card {
+        background: white ;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 290px;
+        margin: 6rem auto 8.1rem auto;
+        width: 440px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .admin h1 {
+        color: white;
+        font-size: 45px;
+    }
+    .admin p {
+        color: white;
+        font-size: 25px;
+    }
+    .menu {
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        margin-bottom: 40px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-right: 30px;
+      }
+}
+
+
+/* --------ClearFix-------- */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
